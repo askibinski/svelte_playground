@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../my-element.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  export let title;\n  export let body;\n</script>\n\n<style>\n  h1 {\n    color: #0000ff;\n  }\n</style>\n\n<my-element>\n  <h1>{title}</h1>\n  <div>{body}</div>\n</my-element>\n"
+  ],
+  "names": [],
+  "mappings": "AAME,EAAE,eAAC,CAAC,AACF,KAAK,CAAE,OAAO,AAChB,CAAC"
+}
